@@ -1,6 +1,7 @@
 import React from 'react';
 import JEFLIX from '../../assets/img/JEFLIX.png';
 import './Menu.css';
+import ButtonLink from './components/ButtonLink';
 function Menu (){
     return(
         <nav className="Menu">
@@ -8,9 +9,9 @@ function Menu (){
             <img className="Logo" src={JEFLIX} alt="estudo logo"/>
             </a>
             
-            <a className="ButtonLink"href="/">
+            <ButtonLink className="ButtonLink"href="/">
                 Novo Video
-            </a>
+            </ButtonLink>
 
         </nav>
 
